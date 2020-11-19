@@ -3,9 +3,13 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
-<fmt:requestEncoding value="utf-8"/><%-- 한글 깨짐 방지 --%>
-<jsp:include page="/WEB-INF/views/common/header.jsp">
-	<jsp:param value="Auto-trading" name="title"></jsp:param>
-</jsp:include>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>${ param.title }</title>
+</head>
+<body>
 
-<jsp:include page="/WEB-INF/views/common/footer.jsp"></jsp:include> 
+</body>
+</html>
