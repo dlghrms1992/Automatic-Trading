@@ -8,6 +8,11 @@
 <head>
 <meta charset="UTF-8">
 <title>${ param.title }</title>
+<c:if test="${ not empty msg }">
+<script>
+	alert("${ msg }");
+</script>
+</c:if>
 </head>
 <body>
 
