@@ -1,2 +1,2 @@
-# newMine
-새로운 프로젝트
+# Automatic-Trading
+자동매매 프로그램 진행중
