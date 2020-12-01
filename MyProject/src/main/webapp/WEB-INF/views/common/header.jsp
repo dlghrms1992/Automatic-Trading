@@ -22,16 +22,62 @@
 <!-- bootstrap css -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
-<!-- 사용자작성 css -->
-<link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/style.css" />
+<!-- 반응형 웹 규격 만들기  -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+#common-container{
+	width: 940px;
+	margin: 10px auto;
+	padding: 20px;
+	border: 1px solid #bcbcbc;
+};
+#common-header{
+	padding : 20px;
+	margin-bottom: 20px;
+	border: 1px solid #bcbcbc;
+};
+#common-footer{
+	clear: both;
+	padding: 20px;
+	border: 1px solid #bcbcbc;
+};
+#common-nav{
+ 	width: 260px;
+ 	margin-bottom: 20px;
+ 	float: left;
+ 	border: 1px solid #bcbcbc;
+}
+#common-content{
+	width: 580px;
+	padding: 20px;
+	margin-bottom: 20px;
+	float: left;
+	border: 1px solid #bcbcbc;
+}
+@media( max-width: 480px){
+	#common-container{
+		width:auto;
+	}
+	#common-content{
+		float: none;
+		width: auto;
+	}
+	#common-nav{
+		float: none;
+		width: auto;
+	}
+} 
+</style>
 </head>
 <body>
-<div class="container">
-	<header>
-	<nav>
-	
-	</nav>
+<div id="common-container">
+	<header id="common-header">
+		<h1>메인</h1>
 	</header>
 	
-	<section id="content">
+	<section id="commom-content">
+	<nav id="common-nav">
+		<h1>메뉴</h1>
+	</nav>
+	<h1>페이지 내용</h1>
 
