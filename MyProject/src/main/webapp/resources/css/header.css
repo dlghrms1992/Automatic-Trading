@@ -1,0 +1,32 @@
+.navbar-nav .nav-item a {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+.navbar-nav .nav-item a:hover{
+    color: rgb(247, 182, 151);
+}
+
+#nav-right{
+	 color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s ease;
+	
+}
+
+#nav-right:hover {
+	color: rgb(247, 182, 151);
+}
+
+#logoutBtn {
+	font-size: 13px;
+	color : gray; 
+	border : 3px solid gray;
+}
+
+#logoutBtn:hover {
+	background-color :  #555555;
+	color : #fff;
+}
