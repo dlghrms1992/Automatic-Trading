@@ -54,13 +54,16 @@
 					<li class="nav-item active" style="margin-right: 2%">
 						<a class="nav-link"href="">공지사항</a>
 					</li>
-					<li class="nav-item active" style="margin-right: 2%">
+					<li class="nav-item" style="margin-right: 2%">
 						<a class="nav-link"href="">종목분석</a>
 					</li>
-					<li class="nav-item active" style="margin-right: 2%">
+					<li class="nav-item" style="margin-right: 2%">
+						<a class="nav-link"href="">자유대화방</a>
+					</li>
+					<li class="nav-item" style="margin-right: 2%">
 						<a class="nav-link"href="">마이페이지</a>
 					</li>
-					<li class="nav-item active" style="margin-right: 2%">
+					<li class="nav-item" style="margin-right: 2%">
 						<a class="nav-link"href="">고객센터</a>
 					</li>
 				</ul>

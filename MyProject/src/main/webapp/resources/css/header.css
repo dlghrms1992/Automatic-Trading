@@ -1,9 +1,18 @@
+#common-header
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
 .navbar-nav .nav-item a {
     color: #333;
     font-size: 18px;
     font-weight: 600;
     transition: 0.5s ease;
 }
+
 .navbar-nav .nav-item a:hover{
     color: rgb(247, 182, 151);
 }
